@@ -1,0 +1,42 @@
+event master testing 
+
+
+set lines 1000
+column UPL format A10
+column D format A12
+column TIME format A10
+column PENDING_COUNT format A12
+column PROCESSED_COUNT format A12
+column TIME_SLOT_1 format A15
+column TIME_SLOT_2 format A15
+column TIME_SLOT_3 format A15
+column TIME_SLOT_4 format A15
+column TIME_SLOT_5 format A15
+column TIME_SLOT_6 format A15
+column NO_OF_RECORDS_PENDING format A15
+column SPEED_PER_SECOND format A15
+column ESTIMATED_TIME format A15
+column CATEGORY format A15
+
+
+event params
+
+
+column EDATE format A10
+column ST_TIME format A10
+column EVENT_NAME format A10
+column LOCATION format A10
+column SERVER_NAME format A10
+column MODULE_NAME format A20
+column EVENT_ID format A20
+column EVENT_MODULE format A15
+column MATURITY format A5
+column EVENT_DESC format A50
+column EVENT_COMMAND format A100
+column THRESHOLD_1 format A10
+column THRESHOLD_2 format A15
+column THRESHOLD_3 format A15
+column EVENT_SEVERITY format A10
+column EVENT_STATUS format A20
+column SENT_TIME format A50                                      
+column EXCEPTION format A25                                      
